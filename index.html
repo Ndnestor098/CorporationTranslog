@@ -6,39 +6,45 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=6">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
         <!--Descripcion de la pagina web-->
         <title>Corporation Translog</title>
         <meta name="description" content="Somos una empresa de Logística Internacional con Alcance Global. Nuestra mision es Proveer Servicios Integrales de Comercio Internacional">
         <meta name="keywords" content="buques, tiempo, vieje, calculadora, barcos, lanchas, transporte, logistica, Internacional, mar, atlantico, pacifico, navegar, puertos, envios, container, maritimo, entrega, embarcaciones, carga, muelle">
-        <meta name="robots" content="index"/>
-        <meta name="robots" content="follow"/>
-
 
         <!--Descripcion de compartir en Facebook-->
         <meta property="og:title" content="Corporation Translog">
-        <meta property="og:image" content="image/Logo.png">
+        <meta property="og:image" content="./image/Logo.png">
         <meta property="og:description" content="Somos una empresa de Logística Internacional con Alcance Global. Nuestra mision es Proveer Servicios Integrales de Comercio Internacional">
         
         <!--Descripcion de compartir en Twitter-->
         <meta property="twitter:title" content="Corporation Translog">
-        <meta property="twitter:image" content="image/Logo.png">
+        <meta property="twitter:image" content="./image/Logo.png">
         <meta property="twitter:description" content="Somos una empresa de Logística Internacional con Alcance Global. Nuestra mision es Proveer Servicios Integrales de Comercio Internacional"> 
 
         <!--Link de iconos de la pagina web-->
-        <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
-        <link rel="manifest" href="image/site.webmanifest">
+        <link rel="apple-touch-icon" sizes="180x180" href="./image/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./image/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./image/favicon-16x16.png">
+        <link rel="manifest" href="./image/site.webmanifest">
+        <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon">
+
         
         <!--Autor-->
         <meta name="author" content="Nestor Daniel">
+        <meta rel="canonical" href="https://ndsmart.000webhostapp.com/">
+        <meta name="robots" content="NOODP,NOYDIR">
 
         <!--Styles-->
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="./css/styles.css">
 
         <!--Base de iconos-->
-        <script src="https://kit.fontawesome.com/1476d2804b.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://kit.fontawesome.com">
+        <script src="https://kit.fontawesome.com/8f34396e62.js" crossorigin="anonymous"></script>
 
         <!--JavaScripts-->
         <script defer src="js/index.js"></script>
@@ -46,21 +52,23 @@
     <body>
         <!------------------  Cabezera de pagina ------------------>
         <header class="header">
+                    <!-- Seccion de logo -->
                 <div class="espacio-logo">
-                    <a href="#"><img class="Logo" src="image/Logo.png" alt=""></a>
+                    <a href="/"><img class="Logo" src="image/Logo.png" alt=""></a>
                 </div>
-            
+
+                    <!-- Seccion del Menu -->
                 <nav class="nav">
                     <ul class="nav-menu">
                         <li class="nav-menu-item hover-menu">
-                            <a class="nav-menu-link nav-link" href="/index.html">Inicio</a>
+                            <a class="nav-menu-link nav-link" href="/">Inicio</a>
                         </li>
                         <li class="nav-menu-item hover-menu">
-                            <a class="nav-menu-link nav-link" href="/about">Sobre Nosotros</a>
+                            <a class="nav-menu-link nav-link" href="/#">Sobre Nosotros</a>
                         </li>
                         <li class="cascade hover-menu"> 
                             <div class="nav-click">
-                                <a href="/servicios" class="nav-menu-link  nav-menu-item-sub">Servicios</a>
+                                <a href="/#" class="nav-menu-link  nav-menu-item-sub">Servicios</a>
                             </div>
                             <ul class="dropdown">
                                 <li><a class="sub-menu" href="#">Logística & Transporte de Carga</a></li>
@@ -84,9 +92,18 @@
             <!------------------------Portada de pagina web------------------------>
             <div class="imagen-principal">
                 <div>
-                    <h1>¿QUIENES SOMOS?</h1>
-                    <p>Somos una empresa de Logística Internacional con Alcance Global. Nuestra mision es Proveer Servicios Integrales de Comercio Internacional tales como: Agentes de Carga, Transporte nacional e internacional y Fletamento Marítimo, ofreciendo respuestas oportunas y soluciones efectivas a los requerimientos de nuestros clientes.</p>
-                    <a href="/requerimientos" class="button-requerimientos">Requerimientos</a>
+                    <h1>TRASNPORTAMOS TU FUTURO</h1>
+                    <p>Agencia de transporte maritimo, nos enfocamos en tus necesidades.</p>
+                    <a href="#" class="button">Contactanos</a>
+                </div>
+            </div>
+    
+            <!----------------------Parte de Sobre Nosotros------------------------>
+            <div class="sobre-nosotros">
+                <div class="content-SN">
+                    <h2>¿QUIENES SOMOS?</h2>
+                    <p>Somos una empresa de Logística Internacional con Alcance Global. Nuestra mision es <strong> Proveer Servicios Integrales de Comercio Internacional tales como:</strong> Agentes de Carga, Transporte nacional e internacional y Fletamento Marítimo, ofreciendo respuestas oportunas y soluciones efectivas a los requerimientos de nuestros clientes.</p>
+                    <a href="#" class="button">Leer Mas</a>
                 </div>
             </div>
 
@@ -146,29 +163,30 @@
                         <p>Trader Internacional</p>
                     </div>
                 </div>
-                <a href="#" class="button-requerimientos" style="margin-top: 60px;">Requirimientos</a>
+                <a href="#" class="button" style="margin-top: 60px;">Requerimientos</a>
             </div>
 
             <!----------------------Parte de Conocer Empresa------------------------>
             <div class="conocer">
                 <div>
                     <h4><strong>¿Requiere alguno de nuestros servicios?</strong></h4>
-                    <a href="#">Contactanos</a>
+                    <a href="#" class="button">Contactanos</a>
                 </div>
             </div>
 
         </main>
-        
 
         <!------------------ Pies de pagina  ------------------>
         <footer class="pies-pagina">
+            <!-- Seccion Principal del Footer -->
             <div class="grupo-1">
+                <!-- Seccion de logo y redes -->
                 <div class="box">
                     <a href="#">
                         <a href="/"><img class="img-p" src="image/Logo.png" alt=""></a>
                     </a>
 
-                    <p class="seguir">Siguenos</p>
+                    <p  class="title-footer">Siguenos</p>
                     <div class="red-social">
                         <a href="#" class="fa fa-facebook" style="padding: 15px 17px;"></a>
                         <a href="#" class="fa fa-instagram"></a>
@@ -177,16 +195,18 @@
                     </div>
                 </div>
 
+                <!-- Seccion de Menu -->
                 <div class="box">
-                    <p>Compañia</p>
+                    <p class="title-footer">Compañia</p>
                     <a class="footer-link" href="#">Inicio</a>
                     <a class="footer-link" href="#">¿Quienes Somos?</a>
                     <a class="footer-link" href="#">Servicios</a>
                     <a class="footer-link" href="#">Contacto</a>
                 </div>
 
+                <!-- Seccion de Contacto -->
                 <div class="box">
-                    <p>Contacto</p>
+                    <p class="title-footer">Contacto</p>
                     <ul class="contact">
                         <li class="title-contact">Telefono</li>
                         <li>+58 239 248 1425</li>
@@ -202,6 +222,7 @@
                 </div>
             </div>
 
+            <!-- Seccion de derechos de autor -->
             <div class="grupo-2">
                 <small>&copy; 2023 <b>Translog</b> - Todos los derechos Reservados</small>
             </div>
