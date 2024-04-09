@@ -275,14 +275,16 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: top;
-    div{
+
+    .contenedor-portada{
         display: flex;
-        margin-top: 200px;
+        align-items: center;
+    }
+    .info-portada{
+        display: flex;
         flex-direction: column;
         align-items: center;
         gap: 30px;
-        width: 100%;
-        height: 100%;
     }
 }
 .portada-about{
@@ -749,7 +751,7 @@ header{
     .areatext-servicios{
         width: 100%;
         height: 100%;
-        padding: 0px 50px;
+        padding: 5px 50px;
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -847,13 +849,19 @@ header{
                     background-color: #495b71;
                     color: #fff !important;
                     padding: 15px 5px;
-                    width: min-content;
+                    cursor: pointer;
                     font-weight: bold;
                     font-size: 16px;
                     border: none;
                     border-radius: 10px;
                     color: #000;
                     font-size: 15px;
+                }
+                .error{
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #c92c2c;
+                    height: 19px;
                 }
             }
         }
@@ -961,12 +969,7 @@ header{
 
 /* ==============================================================================Pagina Gracias============================================================================= */
 .agradecer{
-    width: 100%;
-    padding-top: 180px;
-    height: 100%;
-
-    display: flex;
-    justify-content: center;
+    padding-top: 130px 0px 40px 0px;;
 
     .content-agradecer{
         background-color: #f2f2f2;
@@ -974,7 +977,6 @@ header{
         align-content: center;
         justify-content: center;
         flex-direction: column;
-        margin: 30px;
         padding: 30px;
         gap: 20px;
         border-radius: 15px;
@@ -1168,7 +1170,7 @@ header{
         flex-wrap: wrap;
     }
     .content-contact .contactar .area-contacto form {
-        width: 100% !important;
         margin-bottom: 20px;
+        width: 100%!;
     }
 }

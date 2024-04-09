@@ -10,19 +10,21 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
         <!--Descripcion de la pagina web-->
-        <title>Corporation Translog</title>
+        <title>Contacto - Corporation Translog</title>
         <meta name="description" content="Somos una empresa de Logística Internacional con Alcance Global. Nuestra mision es Proveer Servicios Integrales de Comercio Internacional">
         <meta name="keywords" content="buques, tiempo, vieje, calculadora, barcos, lanchas, transporte, logistica, Internacional, mar, atlantico, pacifico, navegar, puertos, envios, container, maritimo, entrega, embarcaciones, carga, muelle">
 
-        <!--Descripcion de compartir en Facebook-->
+        <!--Descripcion de compartir en Instagram-->
         <meta property="og:title" content="Corporation Translog">
         <meta property="og:image" content="./image/Logo.png">
         <meta property="og:description" content="Somos una empresa de Logística Internacional con Alcance Global. Nuestra mision es Proveer Servicios Integrales de Comercio Internacional">
+        <meta property="og:url" content="http://corporationtranslog.infinityfreeapp.com/contacto.php">
         
         <!--Descripcion de compartir en Twitter-->
         <meta property="twitter:title" content="Corporation Translog">
         <meta property="twitter:image" content="./image/Logo.png">
         <meta property="twitter:description" content="Somos una empresa de Logística Internacional con Alcance Global. Nuestra mision es Proveer Servicios Integrales de Comercio Internacional"> 
+        <meta property="twitter:url" content="http://corporationtranslog.infinityfreeapp.com/contacto.php">
 
         <!--Link de iconos de la pagina web-->
         <link rel="apple-touch-icon" sizes="180x180" href="./image/apple-touch-icon.png">
@@ -33,7 +35,7 @@
         
         <!--Autor-->
         <meta name="author" content="Nestor Daniel">
-        <meta rel="canonical" href="https://ndsmart.000webhostapp.com/">
+        <meta rel="canonical" href="http://corporationtranslog.infinityfreeapp.com/contacto.php">
         <meta name="robots" content="NOODP,NOYDIR">
 
         <!--Styles-->
@@ -46,6 +48,9 @@
 
         <!--JavaScripts-->
         <script defer src="js/index.js"></script>
+
+        <!-- reCAPTCHA -->
+        <script src="https://www.google.com/recaptcha/api.js"></script>
     </head>
     <body>
         <!------------------  Cabezera de pagina ------------------>
@@ -66,18 +71,18 @@
                 <div class="contactar">
                     <!-- ------------Formulario------------ -->
                     <div class="area-contacto">
-                        <form id="form" action="./gracias.php" method="POST">
+                        <form action="./php/correo.php" method="post" enctype="application/x-www-form-urlencoded" class='CONTACTO'>
                             <h2>Solicite su consulta gratuita</h2>
                             <input class="input-info" required type="text" name="name" id="name" placeholder="Nombre y Apellido *">
                             <input class="input-info" required type="email" name="email" id="email" placeholder="Email *">
                             <input class="input-info" required type="text" name="empresa" id="empresa" placeholder="Nombre de empresa *">
                             <input class="input-info" required type="number" name="telefono" id="telefono" placeholder="Teléfono (+58) *">
                             <textarea class="input-mensaje" name="message" id="message" cols="30" rows="10" placeholder="Mensaje *"></textarea>
-
-                            <input class="enviar" type="submit" name="enviar" id="enviar" value="Enviar Mensaje">
+                            <p class="error"></p>
+                            <div class="g-recaptcha" data-sitekey="6LeDlrQpAAAAACDqENvlAuh4ShInnMaezlU_u06O"></div>
+                            <button class="enviar" type="submit">Enviar Mensaje</button>
                         </form>
                     </div>
-                    <?php require_once "./php/correo.php"?>
                     <!-- ------------Contactos------------ -->
                     <div class="area-informacion">
                         <h2>Nuestros Contactos</h2>
@@ -101,7 +106,8 @@
         </main>
 
         <!------------------ Pies de pagina  ------------------>
+        <script src="./js/ajax.js"></script>
         <?php require_once "./php/footer.php"?>
-
+        
     </body>
 </html>

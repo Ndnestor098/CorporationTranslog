@@ -15,15 +15,17 @@
         <meta name="description" content="Somos una empresa de Logística Internacional con Alcance Global. Nuestra mision es Proveer Servicios Integrales de Comercio Internacional">
         <meta name="keywords" content="buques, tiempo, vieje, calculadora, barcos, lanchas, transporte, logistica, Internacional, mar, atlantico, pacifico, navegar, puertos, envios, container, maritimo, entrega, embarcaciones, carga, muelle">
 
-        <!--Descripcion de compartir en Facebook-->
+        <!--Descripcion de compartir en Instagram-->
         <meta property="og:title" content="Corporation Translog">
         <meta property="og:image" content="./image/Logo.png">
         <meta property="og:description" content="Somos una empresa de Logística Internacional con Alcance Global. Nuestra mision es Proveer Servicios Integrales de Comercio Internacional">
+        <meta property="og:url" content="http://corporationtranslog.infinityfreeapp.com/">
         
         <!--Descripcion de compartir en Twitter-->
         <meta property="twitter:title" content="Corporation Translog">
         <meta property="twitter:image" content="./image/Logo.png">
         <meta property="twitter:description" content="Somos una empresa de Logística Internacional con Alcance Global. Nuestra mision es Proveer Servicios Integrales de Comercio Internacional"> 
+        <meta property="twitter:url" content="http://corporationtranslog.infinityfreeapp.com/">
 
         <!--Link de iconos de la pagina web-->
         <link rel="apple-touch-icon" sizes="180x180" href="./image/apple-touch-icon.png">
@@ -34,7 +36,7 @@
         
         <!--Autor-->
         <meta name="author" content="Nestor Daniel">
-        <meta rel="canonical" href="https://ndsmart.000webhostapp.com/">
+        <meta rel="canonical" href="http://corporationtranslog.infinityfreeapp.com/">
         <meta name="robots" content="NOODP,NOYDIR">
 
         <!--Styles-->
@@ -56,11 +58,14 @@
         <main>
             <!------------------------Portada de pagina web------------------------>
             <div class="imagen-principal portada-home">
-                <div>
-                    <h1>TRANSPORTAMOS TU FUTURO</h1>
-                    <p>Agencia de transporte maritimo, nos enfocamos en tus necesidades.</p>
-                    <a href="./contacto.php" class="button">Contactanos</a>
+                <div class="contenedor-portada">
+                    <div class="info-portada">
+                        <h1>TRANSPORTAMOS TU FUTURO</h1>
+                        <p>Agencia de transporte maritimo, nos enfocamos en tus necesidades.</p>
+                        <a href="./contacto.php" class="button">Contactanos</a>
+                    </div>
                 </div>
+                
             </div>
     
             <!----------------------Parte de Sobre Nosotros------------------------>
