@@ -17,5 +17,5 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu máquina local:
 
 1. **Clona el repositorio**:
    ```bash
-   git clone https://github.com/tu-usuario/MaritimeTradeInternational.git
-   cd MaritimeTradeInternational
+   git clone https://github.com/tu-usuario/CorporationTranslog.git
+   cd CorporationTranslog
