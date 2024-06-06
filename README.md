@@ -1,7 +1,7 @@
 # CorporationTranslog
 
 <p align="center">
-  <img src="imagen/logo.png">
+  <img src="image/Logo.png">
 </p>
 
 Somos una empresa de Logística Internacional con Alcance Global. Nuestra mision es Proveer Servicios Integrales de Comercio Internacional tales como: Agentes de Carga, Transporte nacional e internacional y Fletamento Marítimo, ofreciendo respuestas oportunas y soluciones efectivas a los requerimientos de nuestros clientes.
